@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: 162440;
+    max-width: 100%;
+}
+
+.logo1{
+    position: absolute;
+    left: 7%;
+    top: 5%;
+}
+
+body{
+    background-image: url(../assets/Fundo\ do\ Site.jpg);
+    height: 100%;
+}
+
+h2{
+    position: absolute;
+    font-family: 'Poppins';
+    width: 463px;
+    font-size: 48px;
+    line-height: 122%;
+    color: white;
+    top: 184px;
+    left: 7%;
+}
+
+strong{
+    color: #00D1FF;
+}
+
+p{
+    position: absolute;
+    font-family: 'Nunito Sans';
+    font-size: 24px;
+    width: 580px;
+    color: white;
+    top: 377px;
+    left: 7%;
+}
+
+a{
+    position: absolute;
+    font-family: 'Poppins';
+    font-size: 32px;
+    background-color: #00D1FF;
+    padding: 8px 16px;
+    border-radius: 32px;
+    left: 10%;
+    top: 504px;
+    text-decoration: none;
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 432px) {
+    
+    body{
+        background-image: url(../assets/Fundo\ Celular.jpg);
+    }
+    
+    .fundo{
+        content: url(../assets/Fundo\ Celular.jpg);
+    }
+    
+    p{
+        font-size: 14px;
+        left: 20px;
+        top: 344px;
+        width: 305px;
+    }
+
+    h2{
+        font-size: 32px;
+        left: 20px;
+        top: 211px;
+        width: 398px;
+    }
+    
+    a{
+        font-size: 20px;
+        left: 20px;
+        top: 421px;
+        padding: 4px 8px;
+    }
+}
