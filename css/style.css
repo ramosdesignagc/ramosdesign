@@ -3,59 +3,34 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+    
 body{
-    background-color: 162440;
+    background-image: url(../assets/Fundo-Site-PC.jpg);
     max-width: 100%;
 }
 
-.logo1{
+img{
     position: absolute;
-    left: 7%;
-    top: 5%;
-}
-
-body{
-    background-image: url(../assets/Fundo\ do\ Site.jpg);
-    height: 100%;
-}
-
-h2{
-    position: absolute;
-    font-family: 'Poppins';
-    width: 463px;
-    font-size: 48px;
-    line-height: 122%;
-    color: white;
-    top: 184px;
-    left: 7%;
-}
-
-strong{
-    color: #00D1FF;
-}
-
-p{
-    position: absolute;
-    font-family: 'Nunito Sans';
-    font-size: 24px;
-    width: 580px;
-    color: white;
-    top: 377px;
-    left: 7%;
+    top: 14%;
+    left: 8%;
 }
 
 a{
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.31);
+}
+
+.orcamento{
+    content: url(../assets/orcamento.png);
     position: absolute;
-    font-family: 'Poppins';
-    font-size: 32px;
-    background-color: #00D1FF;
-    padding: 8px 16px;
-    border-radius: 32px;
-    left: 10%;
-    top: 504px;
-    text-decoration: none;
-    color: white;
+    top: 69%;
+    left: 8%;
+}
+
+.portfolio{
+    content: url(../assets/portifolio.png);
+    position: absolute;
+    top: 81%;
+    left: 8%;
 }
 
 @media screen and (max-width: 768px) {
@@ -65,31 +40,18 @@ a{
 @media screen and (max-width: 432px) {
     
     body{
-        background-image: url(../assets/Fundo\ Celular.jpg);
-    }
-    
-    .fundo{
-        content: url(../assets/Fundo\ Celular.jpg);
-    }
-    
-    p{
-        font-size: 10px;
-        left: 20px;
-        top: 344px;
-        width: 305px;
+        background-image: url(../assets/Fundo-Site-Celular.jpg);
+        
     }
 
-    h2{
-        font-size: 28px;
-        left: 20px;
-        top: 211px;
-        width: 398px;
+    img{
+        top: 39%;
+        max-width: 385px;
     }
-    
-    a{
-        font-size: 20px;
-        left: 20px;
-        top: 421px;
-        padding: 4px 8px;
+
+    .orcamento{
+        top: 72%;
     }
+
 }
+
